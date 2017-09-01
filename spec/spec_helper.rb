@@ -16,7 +16,7 @@ require 'generator_spec'
 
 require 'mysql2'
 
-require 'fog'
+require 'fog-aws'
 require 'storage/fog_helper'
 
 unless ENV['REMOTE'] == 'true'
